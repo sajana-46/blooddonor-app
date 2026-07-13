@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
-
+import Navigationbar from './Navigationbar'
 
 
 const Adddonour = () => {
@@ -46,6 +46,7 @@ const Adddonour = () => {
     
   return (
     <div>
+        <Navigationbar/>
         
         <div className="container">
             <div className="row">

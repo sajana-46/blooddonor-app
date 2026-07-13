@@ -1,8 +1,11 @@
 import React from 'react'
+import Navigationbar from './Navigationbar'
+
 
 const Homepage = () => {
   return (
     <div>
+        <Navigationbar/>
         <center>
 
         
