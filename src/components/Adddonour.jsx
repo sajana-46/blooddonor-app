@@ -51,6 +51,7 @@ const Adddonour = () => {
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <h2 className="text-center">Add Donour</h2>
+                    <div className="row g-3">
 
                     
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -126,6 +127,7 @@ const Adddonour = () => {
                                 onChange={inputHandler} optional />
                         </div>
                         
+                    </div>
                     </div>
                     <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <button className="btn btn-success" onClick={readValue}>Submit</button>
